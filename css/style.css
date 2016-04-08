@@ -6,6 +6,10 @@ h1 {
   margin: 0;
 }
 
+#galeria{
+  max-width: 1300px;
+}
+
 header {
   font-size: 70px;
   text-align: center;
@@ -55,6 +59,21 @@ li {
 #sill {
   max-width: 100%;
   height: auto;
+}
+
+.vng {
+  border: 8px ridge sienna;
+  box-shadow: 5px 5px 10px #000;
+  height: 330px;
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
+}
+
+.vng:hover {
+  -webkit-filter: sepia(1);
+          filter: sepia(1);
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
 }
 
 footer {
